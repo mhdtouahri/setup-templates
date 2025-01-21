@@ -19,7 +19,7 @@ HISTFILESIZE=10000                     # Max commands in total history file
 HISTTIMEFORMAT="%d/%m/%y %T"           # Add date and time in history
 bind '"\e[A": history-search-backward' # Enhanced search with UP
 bind '"\e[B": history-search-forward'  # Enhanced search with DOWN
-
+bind '"\C-@":"clear\n"'                # Clear the screen easily using CTRL + Space.
 ### 
 alias ls='ls --color=auto'
 alias ll='ls -lrth --color=auto'
